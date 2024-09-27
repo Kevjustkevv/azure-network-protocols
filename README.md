@@ -93,6 +93,6 @@ Step 6: SSH into VM2 from VM1 via PowerShell. Type "SSH" into WireShark's filter
 <p>
 Step 7: Next you will observe DHCP traffic the same as you did with SSH. Type "DHCP" into WireShark's filter bar (reference step 3) --> Go to "PowerShell" again, type "ipconfig /renew" into the cmd line to request a new IP address for VM1 from the Azure DHCP server (you may lose connection to the VM, if so, just RDH back into it) --> You should see the newly issued IP address in WireShark. 
 
-  Congrats! You have now inspected network traffic within Azure Virtual Machines and successfully learned and experimented with Network Security Groups (NSG's). FANTASTIC! 😁</i></b></p>
+  Congrats! You have now inspected network traffic within Azure Virtual Machines and successfully learned and experimented with Network Security Groups (NSGs). FANTASTIC! 😁</i></b></p>
 </p>
 <br />
